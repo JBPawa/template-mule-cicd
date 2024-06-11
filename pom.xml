@@ -5,11 +5,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>79838021-7c9a-4250-a26f-42bc56642a9f</groupId>
-	<artifactId>template-mule-cicd-v1</artifactId>
+	<artifactId>template-mule-cicd-v2</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
 
-	<name>template-mule-cicd-v1</name>
+	<name>template-mule-cicd-v2</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
