@@ -10,7 +10,6 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	
 	<flow name="test-cicd-gitFlow" doc:id="2b54f3a6-77b1-4113-9758-8c2841957386" >
 		<http:listener doc:name="Listener" doc:id="c7c89f34-49a1-4fce-a2cb-320004b7a749" config-ref="HTTP_Listener_config" path="/api/hello-template"/>
-		<logger level="INFO" doc:name="Logger" doc:id="3a9fa429-060e-4be4-81d9-6588bd06b729" message="#[payload]"/>
 		<ee:transform doc:name="Transform Message" doc:id="c43f240b-80c2-467c-83b6-d32f08df850d" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
